@@ -6,6 +6,8 @@ Make sure the resource name is 'faxbase'. Having a different name could break it
 **About**
 This resource is a developer resource mainly filled with exports to help support other scripts. If you're a developer feel free to use this to help your own resources.
 
+<hr>
+
 > **Support Discord**
 > https://faxes.zone/discord
 
