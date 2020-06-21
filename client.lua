@@ -24,8 +24,8 @@ function displayAboveMapNotificationCharImage(title, text)
     if;not title;then;title="No title parameter was passed.";end
     BeginTextCommandThefeedPost("STRING")
     AddTextComponentSubstringPlayerName(text)
-    SetNotificationMessage("CHAR_DEFAULT", "CHAR_DEFAULT", true, 4, title)
-    DrawNotification(false, true)
+    EndTextCommandThefeedPostMessagetext("CHAR_DEFAULT", "CHAR_DEFAULT", true, 4, title)
+    EndTextCommandThefeedPostTicker(false, true)
 end
 
 function doMaths(equation)
