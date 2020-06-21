@@ -19,6 +19,15 @@ function displayHelpNotification(text)
     EndTextCommandDisplayHelp(0, 0, 1, -1)
 end
 
+function displayAboveMapNotificationCharImage(title, text)
+    if;not text;then;text="No text parameter was passed.";end
+    if;not title;then;title="No title parameter was passed.";end
+    BeginTextCommandThefeedPost("STRING")
+    AddTextComponentSubstringPlayerName(text)
+    SetNotificationMessage("CHAR_DEFAULT", "CHAR_DEFAULT", true, 4, title)
+    DrawNotification(false, true)
+end
+
 function doMaths(equation)
     doDaMathsForThis = assert(loadstring(equation))
     finalAnser = doDaMathsForThis()
@@ -28,6 +37,11 @@ end
 RegisterNetEvent("Fax:DrawNotification")
 AddEventHandler("Fax:DrawNotification", function(text, flash, brief)
     displayAboveMapNotification(text, flash, brief)
+end)
+
+RegisterNetEvent("Fax:DrawNotificationCharImage")
+AddEventHandler("Fax:DrawNotificationCharImage", function(title, text)
+    displayAboveMapNotificationCharImage(title, text)
 end)
 
 RegisterNetEvent("Fax:DisplayHelp")
