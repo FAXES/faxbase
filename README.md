@@ -1,32 +1,22 @@
-# Important!
-Make sure the resource name is 'faxbase'. Having a different name could break it's functionality for resources.
+### 📠 [Fax-Base][5mlink] 📠
 
-**Fax-Base - By FAXES**
+[![Discord](https://faxes.zone/i/9wkr3.png)](https://faxes.zone/discord)
 
-**About**
+----
+
 This resource is a developer resource mainly filled with exports to help support other scripts. If you're a developer feel free to use this to help your own resources.
 
-<hr>
+**Documentation:**
+- [FAXES Documentation Site](https://docs.faxes.zone/docs)
+- [FAXES ACE Permission Documentation](https://docs.faxes.zone/docs/aceperms)
+- [Getting Your Steam Hexadecimal](https://docs.faxes.zone/docs/getting-your-steam-hex)
 
-> **Support Discord**
-> https://faxes.zone/discord
+**Credits:**
+- Astra 
+- FAXES
 
-<hr>
+<br />
 
-**Exports**
-- displayAboveMapNotification: `exports.faxbase:displayAboveMapNotification(textSTRING, flashBOOL, briefBOOL)`
-- displayHelpNotification: `exports.faxbase:displayHelpNotification(textSTRING)`
-- doMaths: `exports.faxbase:doMaths(equationSTRING)`
+[![FiveM](https://faxes.zone/i/r5byi.png)][5mlink]
 
-**Client Events**
-- Fax:DrawNotification: `(textSTRING, flashBOOL, briefBOOL)`
-- Fax:DisplayHelp: `(textSTRING)`
-- Fax:NoPerms: Displays a message that states `~r~Insufficient permissions`.
-
-**Requirements**
-None. This is a standalone script.
-
-**Credits**
-FAXES, Community merges.
-
-If you have any issues or comments please put them below.
+[5mlink]: https://github.com/FAXES/faxbase

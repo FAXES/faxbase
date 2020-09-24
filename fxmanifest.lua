@@ -18,9 +18,9 @@
 --]]
 
 fx_version 'bodacious'
-games 'gta5'
+game 'gta5'
 
-author 'FAXES'
+author 'FAXES/Astra'
 description 'This resource is a developer resource mainly filled with exports to help support other scripts.'
 
 client_script 'client.lua'
